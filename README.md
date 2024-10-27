@@ -6,9 +6,7 @@ Here’s a refined version of the README for an "Expense Tracker" website, inclu
 
 This project is an **Expense Tracker** application built with React and bootstrapped using [Create React App](https://github.com/facebook/create-react-app). The app allows users to track their daily expenses, view summaries, and manage personal finances easily.
 
-![Expense Tracker Preview](./path-to-image/expense-tracker-preview.png)
-
-> **Note**: Replace `./path-to-image/expense-tracker-preview.png` with the actual path of the image in your project directory.
+![Screenshot 2024-10-27 093957](https://github.com/user-attachments/assets/4d9cc330-e391-4f80-a9c5-c064d63ac1cd)
 
 ## Table of Contents
 
