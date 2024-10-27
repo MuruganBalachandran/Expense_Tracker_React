@@ -1,0 +1,73 @@
+.transaction-list {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-list h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  .transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: var(--background-color);
+    border-radius: 5px;
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+  }
+  
+  .transaction:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .category-tag {
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .delete-btn:disabled {
+    background-color: #95a5a6;
+  }
+  
+  @media (max-width: 768px) {
+    .transaction {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .transaction-info {
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+  
+    .delete-btn {
+      align-self: flex-end;
+    }
+  }

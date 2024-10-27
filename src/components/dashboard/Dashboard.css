@@ -1,0 +1,87 @@
+.dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: var(--card-background);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.financial-summary {
+  margin-bottom: 30px;
+}
+
+.financial-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.financial-item {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.financial-item h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.amount {
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: block;
+}
+
+.income {
+  color: var(--secondary-color);
+}
+
+.expense {
+  color: var(--accent-color);
+}
+
+.positive {
+  color: var(--secondary-color);
+}
+
+.negative {
+  color: var(--accent-color);
+}
+
+.expense-trend {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .financial-details {
+    flex-direction: column;
+  }
+
+  .financial-item {
+    width: 100%;
+  }
+}

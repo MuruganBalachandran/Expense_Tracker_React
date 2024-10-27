@@ -1,0 +1,54 @@
+.add-transaction-form {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+  }
+  
+  .add-transaction-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .add-transaction-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  .add-transaction-form input,
+  .add-transaction-form select {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color var(--transition-speed);
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .add-transaction-form input:focus,
+  .add-transaction-form select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+  
+  .add-transaction-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: var(--secondary-color);
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+  }
+  
+  .add-transaction-form button:hover {
+    background-color: #27ae60;
+  }
+  
+  .add-transaction-form button:disabled {
+    background-color: #95a5a6;
+  }

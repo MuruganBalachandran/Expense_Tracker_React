@@ -1,0 +1,58 @@
+.user-profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--card-background);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  .user-profile p {
+    margin-bottom: 10px;
+    color: var(--text-color);
+  }
+  
+  .user-profile form {
+    margin-top: 20px;
+  }
+  
+  .user-profile label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .user-profile input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .user-profile button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-profile button:hover {
+    background-color: #27ae60;
+  }
